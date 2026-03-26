@@ -1,0 +1,36 @@
+{
+    "prefix": "all",
+    "dataset": "vtab",
+    "shuffle": true,
+    "ssca": true,
+    "ca": true,
+    "init_cls": 10,
+    "increment": 10,
+    "model_name": "adapter",
+    "convnet_type": "pretrained_vit_b16_224_in21k_adapter",
+    "device": ["0"],
+    "seed": [1993],
+    
+    "init_epochs":10,
+    "warmup_epoch":4,
+    "inc_epochs":30,
+    "ca_epochs":10,
+    "init_lr":0.7866556974884582,
+    "batch_size":48,
+    "weight_decay":0.0008411587270407584,
+    "min_lr":0,
+    "ffn_num":64,
+    "optimizer":"sgd",
+
+    "scale":20.0,
+    "margin":0.0,
+    "alpha":2.0,
+    "rs_margin":0.7,
+    "lambda_rs":1.0,
+    "beta":2.0,
+    "gamma":4.0,
+    "ae_code_dims":384,
+    "ae_init_lr":0.0014018680436561363,
+    "ae_weight_decay":3.3935194489345696e-06
+}
+

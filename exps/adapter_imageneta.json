@@ -1,0 +1,36 @@
+{
+    "prefix": "all",
+    "dataset": "imageneta",
+    "shuffle": true,
+    "ssca": true,
+    "ca": true,
+    "init_cls": 20,
+    "increment": 20,
+    "model_name": "adapter",
+    "convnet_type": "pretrained_vit_b16_224_in21k_adapter",
+    "device": ["0"],
+    "seed": [1993],
+    
+    "init_epochs":20,
+    "warmup_epoch":3,
+    "inc_epochs":15,
+    "ca_epochs":10,
+    "init_lr":0.006688537652915857,
+    "batch_size":48,
+    "weight_decay":5.929828534160845e-07,
+    "min_lr":0,
+    "ffn_num":64,
+    "optimizer":"sgd",
+
+    "scale":30.0,
+    "margin":0.3,
+    "alpha":1.0,
+    "rs_margin":1.5,
+    "lambda_rs":1.0,
+    "beta":3.0,
+    "gamma":6.0,
+    "ae_code_dims":128,
+    "ae_init_lr":0.0003120779977680931,
+    "ae_weight_decay":2.424346330636298e-05
+}
+
