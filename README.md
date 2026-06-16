@@ -41,7 +41,7 @@ The training and evaluation instructions for each dataset are in the "./args.sh"
 
 If you find this useful in your research, please consider citing:
 
-```bibtex
+```text
 @inproceedings{zhao2026representation,
   title={Representation-Steered Incremental Adapter-Tuning for Class-Incremental Learning with Pre-Trained Models},
   author={Zhao, Jiarui and Huang, Libo and Li, Xiangqi and An, Zhulin and Yang, Chuanguang and Wang, Yu and Diao, Boyu and Xu, Yongjun},
